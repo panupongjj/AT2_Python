@@ -1,4 +1,8 @@
-# File: Part_A/StudentRegistration.py
+#  StudentRegistration.py 
+#  This program processes student details, summay fee then 
+#  displays this information onto the screen.  
+#  Author: Panupong Jangjun
+#  Date: 29/11/2024
 
 def printHeadings():
     print("---- HOLMESGLEN INSITITUTE ----")
@@ -21,7 +25,7 @@ def outputTotalFee(totalFees):
     print("\n-----------------------------------")
     print(f"Total Fees Collected: ${totalFees:.2f}")
     print("-----------------------------------")
-
+    
 def main():
     totalFees = 0  # Initialize the total fees to 0
     students = []
